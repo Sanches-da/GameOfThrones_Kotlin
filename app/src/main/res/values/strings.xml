@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Game Of Thrones</string>
+    <string name="title_activity_character_screen">CharacterScreen</string>
+    <string name="menu_search_title">Поиск</string>
+</resources>

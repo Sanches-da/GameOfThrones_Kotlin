@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        tools:src="@drawable/stark_icon"
+        android:layout_margin="16dp"/>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="16dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-black"
+        tools:text="John Snow"
+        />
+
+    <TextView
+        android:id="@+id/tv_aliases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:layout_below="@id/tv_name"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="16dp"
+        android:textSize="12sp"
+        android:textColor="@android:color/black"
+        android:maxLines="2"
+        android:minLines="2"
+        tools:text="Princess • Arya Horseface • Arya Underfoot • Arry • Lumpyface • Lumpyhead • Stickboy • Weasel • Nymeria • Squan • Saltb • Cat of the Canaly • Bets • The Blind Girh • The Ugly Little Girl • Mercedenl • Mercye"
+
+        />
+
+</RelativeLayout>
